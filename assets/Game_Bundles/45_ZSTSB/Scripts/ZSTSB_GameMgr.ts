@@ -25,7 +25,6 @@ export class ZSTSB_GameMgr extends Component {
     @property(Node)
     selectNode: Node | null = null;
 
-
     @property(Node)
     ControlNode: Node | null = null;
 
@@ -57,6 +56,7 @@ export class ZSTSB_GameMgr extends Component {
     public fillNodes: Node[] = [];
     public posNodes: Node[] = [];
 
+    public isPoolInit: boolean = false;
     public isFirstFill: boolean = true;
     public isUseProp: boolean = false;
     public isLock: boolean = false;

@@ -6,6 +6,7 @@ import { GameManager } from 'db://assets/Scripts/GameManager';
 import { ZSTSB_GameMgr } from './ZSTSB_GameMgr';
 import { BHPD_GameData } from './BHPD/BHPD_GameData';
 import { ZSTSB_GameData } from './ZSTSB_GameData';
+import { BHPD_GameMgr } from './BHPD/BHPD_GameMgr';
 const { ccclass, property } = _decorator;
 
 @ccclass('ZSTSB_UIGame')
@@ -55,10 +56,20 @@ export class ZSTSB_UIGame extends Component {
                 break;
             case "钻石填色":
                 this.gameType = "钻石填色";
+                if (ZSTSB_GameMgr.instance?.isPoolInit) {
+                    this.scheduleOnce(() => {
+                        director.getScene().emit("钻石填色本_加载进度", 1);
+                    }, 0.2);
+                }
                 this.startMode();
                 break;
             case "DIY豆豆":
                 this.gameType = "DIY豆豆";
+                if (BHPD_GameMgr.instance?.isPoolInit) {
+                    this.scheduleOnce(() => {
+                        director.getScene().emit("钻石填色本_加载进度", 1);
+                    }, 0.2);
+                }
                 this.startMode();
                 break;
         }
@@ -77,6 +88,12 @@ export class ZSTSB_UIGame extends Component {
             //         ZSTSB_GameMgr.instance.PixelPoolCtrl.CreatePixels(25)
             // }
         }, 0.25);
+    }
+
+    restartGame() {
+        this.node.getChildByName("钻石填色").active = false;
+        this.node.getChildByName("DIY豆豆").active = false;
+        this.node.getChildByName("选择模式").active = true;
     }
 
     changeMenu(nextName: string) {

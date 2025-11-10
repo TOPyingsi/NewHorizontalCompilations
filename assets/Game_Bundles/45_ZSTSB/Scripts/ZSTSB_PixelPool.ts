@@ -19,6 +19,7 @@ export class ZSTSB_PixelPool extends Component {
     private usedSprites: Sprite[] = [];
     start() {
         this.CreatePixels(2500);
+        ZSTSB_GameMgr.instance.isPoolInit = true;
     }
 
     async CreatePixels(num: number) {

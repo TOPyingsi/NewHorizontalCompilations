@@ -17,6 +17,7 @@ export class BHPD_PixelPool extends Component {
     private usedSprites: Sprite[] = [];
     start() {
         this.CreatePixels(800);
+        BHPD_GameMgr.instance.isPoolInit = true;
     }
 
     async CreatePixels(num: number) {

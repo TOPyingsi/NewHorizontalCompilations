@@ -43,6 +43,7 @@ export class BHPD_GameMgr extends Component {
     public processLabel: Label = null;
 
     public isGameOver: boolean = false;
+    public isPoolInit: boolean = false;
 
     public curMapID: string = "";
 

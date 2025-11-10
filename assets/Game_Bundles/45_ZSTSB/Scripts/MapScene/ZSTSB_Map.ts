@@ -109,9 +109,13 @@ export class ZSTSB_Map extends Component {
                 break;
             case "返回选择模式":
                 ZSTSB_GameData.DateSave();
+
+                director.getScene().emit("钻石填色本_开始切换场景");
+
+                ZSTSB_UIGame.instance.restartGame();
+
                 this.scheduleOnce(() => {
-                    let sceneName = director.getScene().name;
-                    director.loadScene(sceneName);
+                    director.getScene().emit("钻石填色本_加载进度", 1);
                 }, 0.2);
                 break;
             case "观看广告":
