@@ -19,6 +19,14 @@ export class XSHY_UI extends Component {
     start() {
         this.node.getChildByName("加载界面").active = true;
         director.getScene().on(XSHY_EasyControllerEvent.隐藏加载界面, () => { this.node.getChildByName("加载界面").active = false; })
+        if (XSHY_GameManager.Instance.LoadIndex >= XSHY_GameManager.Instance.LoadMaxIndex) {
+            this.node.getChildByName("加载界面").active = false;
+        }
+        this.scheduleOnce(() => {
+            if (this.node.getChildByName("加载界面").activeInHierarchy) {
+                this.node.getChildByName("加载界面").active = false;
+            }
+        }, 3)
         director.getScene().on(XSHY_EasyControllerEvent.主程序就绪, this.InitSkillSprite, this)
         director.getScene().on(XSHY_EasyControllerEvent.弹出结算窗口, this.OpenGameOverPanel, this)
         director.getScene().on(XSHY_EasyControllerEvent.受击, this.AttackUI, this)

@@ -33,8 +33,8 @@ export class XSHY_GameManager extends Component {
     public static EnemyID: number = 0;//敌人ID
     public static Instance: XSHY_GameManager = null;
 
-    private LoadIndex: number = 0;//加载进度
-    private LoadMaxIndex: number = 3;//所需加载数量
+    public LoadIndex: number = 0;//加载进度
+    public LoadMaxIndex: number = 3;//所需加载数量
     protected onLoad(): void {
         XSHY_GameManager.Instance = this;
     }
