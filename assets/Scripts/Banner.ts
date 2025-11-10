@@ -22,16 +22,16 @@ export default class Banner {
     static IsWz: boolean = false;//万总华为策略
 
     //健康忠告
-    static Owner: string = `著作权人：深圳市时间坊贸易有限公司`;              //著作权人
-    static License: string = `登记号：2024SA0062689`;                         //登记号
+    static Owner: string = `著作权人：北京光耀大地科技有限公司`;              //著作权人
+    static License: string = `登记号：2025SR1368712`;                         //登记号
     static AgeLimit: number = 16;
-    Company = Company.深圳市欢乐畅玩科技有限公司;
+    Company = Company.厦门猫咪游网络科技有限公司;
 
-    private _appId: string = "36512502";
+    private _appId: string = "36512278";
 
-    private _videoId: string = "3205536";
-    private _customId: string = "3205521";
-    private _bannerId: string = "";
+    private _videoId: string = "3205657";
+    private _customId: string = "3205655";
+    private _bannerId: string = "3205649";
 
 
     //微信
@@ -2454,6 +2454,7 @@ export enum Company {
     厦门冰柠科技有限公司,
     厦门泰酷文化科技有限公司,
     厦门逸趣玩网络科技有限公司,
+    厦门猫咪游网络科技有限公司,
     南京索润网络科技有限公司,
     南京脉涌网络科技有限公司,
     南京标越网络科技有限公司,
