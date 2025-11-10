@@ -1,6 +1,6 @@
-var HKT_PKG = "com.vivo.cptan"//小游戏包名
+var HKT_PKG = "com.hlcw.ysdzz.kyx.nearme.gamecenter"//小游戏包名
 
-var Changle = "cqsggl";//小游戏渠道
+var Changle = "OPPO1";//小游戏渠道
 
 var HTN = {
     getGGType: 0,//获取到的广告策略
@@ -16,7 +16,7 @@ var HTN = {
         console.log('---dealTakeNum----');
         let self = this;
 
-        let url = 'http://datacenter.zywxgames.com:15850/api/index/params?pkm=' + HKT_PKG + '&canshu=' + Changle + '&url=new&yys=yd';
+        let url = 'http://datacenter.zywxgames.com:15855/api/index/params?pkm=' + HKT_PKG + '&canshu=' + Changle + '&url=new&yys=yd';
         console.log(url);
         var xhr = new XMLHttpRequest();
         xhr.onreadystatechange = function () {

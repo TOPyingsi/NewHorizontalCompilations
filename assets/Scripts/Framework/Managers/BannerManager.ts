@@ -12,7 +12,8 @@ export enum Strategy {//所有策略
     深圳OR = "深圳OR",
     深圳快手 = "深圳快手",
     孙波 = "孙波",
-    万总HW = "万总HW"
+    万总HW = "万总HW",
+    深圳腾逸 = "深圳腾逸"
 }
 
 export enum BannerType {//广告类型
@@ -53,7 +54,7 @@ export class BannerManager extends Component {
 
 
     //整体策略(可以自行添加)(一般情况仅需修改此处)
-    public static Strategy: Strategy = Strategy.王勇VR;
+    public static Strategy: Strategy = Strategy.深圳腾逸;
 
 
 
@@ -98,6 +99,17 @@ export class BannerManager extends Component {
                 this.CurrentStrategy = this.StrategyMode7;//深圳OR策略GG2
             }
         }
+        if (BannerManager.Strategy == Strategy.深圳腾逸) {
+            if (window['htn'].getGGType == 1) {
+                this.CurrentStrategy = this.StrategyMode11;//深圳策略GG0
+            }
+            if (window['htn'].getGGType == 2) {
+                this.CurrentStrategy = this.StrategyMode12;//深圳OR策略GG1
+            }
+            if (window['htn'].getGGType == 3) {
+                this.CurrentStrategy = this.StrategyMode13;//深圳OR策略GG2
+            }
+        }
         if (BannerManager.Strategy == Strategy.深圳快手) {
             this.CurrentStrategy = this.StrategyMode8;//深圳快手策略
         }
@@ -112,11 +124,11 @@ export class BannerManager extends Component {
         } else {//处理其他策略
             this.ExecuteBanner(this.CurrentStrategy.首次主场景策略);
             this.ExecuteBanner(this.CurrentStrategy.其他策略);
-            this.CurrentStrategy.游戏开始策略.forEach((element)=>{
-                if(element[0]== BannerType.宝箱 && this.GetBannerIsShow(element))
-                    {ProjectEventManager.GameStartIsShowTreasureBox =true;
-                        console.log("游戏开始的时候有宝箱");
-                    }
+            this.CurrentStrategy.游戏开始策略.forEach((element) => {
+                if (element[0] == BannerType.宝箱 && this.GetBannerIsShow(element)) {
+                    ProjectEventManager.GameStartIsShowTreasureBox = true;
+                    console.log("游戏开始的时候有宝箱");
+                }
             })
         }
     }
@@ -223,6 +235,36 @@ export class BannerManager extends Component {
         页面转换策略: [[BannerType.原生]],
         返回主页策略: [],
         其他策略: [[BannerType.三十秒自弹原生, MaskType.地区屏蔽], [BannerType.三十秒自弹Banner, MaskType.地区屏蔽], [BannerType.三十五秒自弹添加桌面]]//其他策略是指30s自弹，20s自弹，5分钟自弹宝箱等事件
+    }
+    //策略3(深圳腾逸GG1)
+    public StrategyMode11 = {
+        首次主场景策略: [],
+        游戏开始策略: [],
+        游戏结束策略: [[BannerType.原生], [BannerType.Banner]],
+        弹出窗口策略: [[BannerType.原生], [BannerType.Banner]],
+        页面转换策略: [],
+        返回主页策略: [],
+        其他策略: [[BannerType.三十五秒自弹添加桌面]],//其他策略是指30s自弹，20s自弹，5分钟自弹宝箱等事件
+    }
+    //策略4(深圳腾逸GG2)
+    public StrategyMode12 = {
+        首次主场景策略: [],
+        游戏开始策略: [],
+        游戏结束策略: [[BannerType.原生], [BannerType.Banner]],
+        弹出窗口策略: [[BannerType.原生], [BannerType.Banner]],
+        页面转换策略: [[BannerType.原生], [BannerType.Banner]],
+        返回主页策略: [],
+        其他策略: [[BannerType.四十秒自弹原生], [BannerType.三十五秒自弹添加桌面]]//其他策略是指30s自弹，20s自弹，5分钟自弹宝箱等事件
+    }
+    //策略5(深圳腾逸GG3)
+    public StrategyMode13 = {
+        首次主场景策略: [],
+        游戏开始策略: [[BannerType.宝箱]],
+        游戏结束策略: [[BannerType.原生], [BannerType.Banner]],
+        弹出窗口策略: [[BannerType.原生], [BannerType.Banner]],
+        页面转换策略: [[BannerType.原生], [BannerType.Banner]],
+        返回主页策略: [],
+        其他策略: [[BannerType.三十秒自弹原生], [BannerType.三十五秒自弹添加桌面]],//其他策略是指30s自弹，20s自弹，5分钟自弹宝箱等事件
     }
     //#endregion
 

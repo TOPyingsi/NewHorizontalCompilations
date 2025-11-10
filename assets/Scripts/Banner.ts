@@ -13,7 +13,7 @@ export enum BannerMode {
 }
 
 export default class Banner {
-    static Mode: BannerMode = BannerMode.测试包;
+    static Mode: BannerMode = BannerMode.正式包;
     static RegionMask: boolean = false;//地区判断.true为有广告，false为无广告（不需要再此处手动修改，所有广告修改前往BannerManager）
     static TimeMask: boolean = false;//时间判断.true为有广告，false为无广告
     static WorkdayMask: boolean = false;//工作日判断.true为有广告，false为无广告
@@ -22,16 +22,16 @@ export default class Banner {
     static IsWz: boolean = false;//万总华为策略
 
     //健康忠告
-    static Owner: string = `著作权人：厦门格拇科技有限公司`;              //著作权人
-    static License: string = `登记号：2024SR1950669`;                         //登记号
+    static Owner: string = `著作权人：深圳市时间坊贸易有限公司`;              //著作权人
+    static License: string = `登记号：2024SA0062689`;                         //登记号
     static AgeLimit: number = 16;
-    Company = Company.厦门格拇科技有限公司;
+    Company = Company.深圳市欢乐畅玩科技有限公司;
 
-    private _appId: string = "104507989";
+    private _appId: string = "36512502";
 
-    private _videoId: string = "1937424720316465152";
-    private _customId: string = "1937424643861118976";
-    private _bannerId: string = "1937424476946169856";
+    private _videoId: string = "3205536";
+    private _customId: string = "3205521";
+    private _bannerId: string = "";
 
 
     //微信
@@ -51,8 +51,8 @@ export default class Banner {
     private TT_tmplIds: string = "XXXXXXX";//抖音订阅ID
     //屏蔽时间
     private _year: number = 2025;
-    private _month: number = 7;
-    private _date: number = 3;
+    private _month: number = 11;
+    private _date: number = 12;
     private _hour: number = 19;
 
     nativeAd = null;
@@ -66,8 +66,8 @@ export default class Banner {
     popupAddShortcutCount: number = 0;
 
     public static IsShowServerBundle: boolean = false;//是否能使用远程包
-    private server_year: number = 2025;//远程包屏蔽时间
-    private server_month: number = 99;
+    private server_year: number = 2099;//远程包屏蔽时间
+    private server_month: number = 9;
     private server_date: number = 3;
     private server_hour: number = 19;
 
@@ -2462,6 +2462,7 @@ export enum Company {
     上海金馨科技有限公司,
     青岛大蜥蜴娱乐有限公司,
     深圳市掌上畅游科技有限公司,
+    深圳市欢乐畅玩科技有限公司,
     厦门格拇科技有限公司,
 
 }
