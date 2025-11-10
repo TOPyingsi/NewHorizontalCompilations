@@ -89,14 +89,14 @@ export default class SJZ_CharacterController extends Component {
 
         this.gunBone = this.spine.findBone("rotation");
 
-        this.SetAniMix(PlayerAniState.Idle, PlayerAniState.Move);
-        this.SetAniMix(PlayerAniState.Hit, PlayerAniState.Shoot);
+        // this.SetAniMix(PlayerAniState.Idle, PlayerAniState.Move);
+        // this.SetAniMix(PlayerAniState.Hit, PlayerAniState.Shoot);
     }
 
-    SetAniMix(anim1: string, anim2: string) {
-        this.spine?.setMix(anim1, anim2, 0.2);
-        this.spine?.setMix(anim2, anim1, 0.2);
-    }
+    // SetAniMix(anim1: string, anim2: string) {
+    //     this.spine?.setMix(anim1, anim2, 0.2);
+    //     this.spine?.setMix(anim2, anim1, 0.2);
+    // }
 
     SetGun(weapon: SJZ_ItemData) {
         this.weapon = weapon;

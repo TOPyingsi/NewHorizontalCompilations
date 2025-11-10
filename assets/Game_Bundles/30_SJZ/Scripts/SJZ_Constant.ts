@@ -110,7 +110,6 @@ export class SJZ_Constant {
 
     public static Key = {
         FirstInGame: "FirstInGame",
-        isHavePassTutorial: "isHavePassTutorial",
         Money: "Money",
         EnergyBattery: "EnergyBattery",
         KCQB: "KCQB",
@@ -144,7 +143,6 @@ export class SJZ_Constant {
         FIRE_START: "FIRE_START",
         FIRE_STOP: "FIRE_STOP",
         SHOW_INTERACT_BUTTON: "SHOW_INTERACT_BUTTON",
-        Roll: "Roll",
         SHOW_EVACUATION: "SHOW_EVACUATION",//显示撤离
         HIDE_EVACUATION: "HIDE_EVACUATION",//关闭撤离
         SHOW_TUTORIAL: "SHOW_TUTORIAL",//显示引导

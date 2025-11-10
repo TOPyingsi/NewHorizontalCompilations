@@ -24,21 +24,6 @@ const v3_0 = v3();
 export default class SJZ_CharacterFengYi extends SJZ_CharacterController {
     guideTarget: Node = null;
 
-    // 在类定义上方添加属性
-    @property
-    rollSpeed: number = 80;
-    @property
-    rollDuration: number = 0.3;
-    @property
-    rollRotationSpeed: number = 360; // 每秒旋转度数
-    private _wasForcedRollDirection: boolean = false; // 新增属性
-
-    private _isRolling: boolean = false;
-    private _rollTimer: number = 0;
-    private _targetRotation: number = 0;
-    private _currentRotation: number = 0;
-    private _rotationDirection: number = 1;
-
     public get HP(): number {
         return this._hp;
     }
@@ -104,35 +89,8 @@ export default class SJZ_CharacterFengYi extends SJZ_CharacterController {
         this.SetEquipment(helmet, bodyArmor, backpack);
     }
 
-    Roll() {
-        if (this._isRolling) return;
-        
-        this._isRolling = true;
-        this._rollTimer = this.rollDuration;
-        this._wasForcedRollDirection = this.dir.length() === 0; // 记录是否为强制方向
-        // this.PlayAni(1, PlayerAniState.Roll, false);
-        this.character.getChildByName("Spine").active = false;
-        this.character.getChildByName("roll").active = true;
-
-        
-        // 根据当前朝向设置初始旋转方向
-        const rollDir = this.dir.length() > 0 ? this.dir : 
-            v2(this.character.scale.x < 0 ? -1 : 1, 0); // 静止时使用角色朝向
-        this._rotationDirection = rollDir.x < 0 ? 1 : -1;
-        this._targetRotation = this._rotationDirection * 360;
-        this._currentRotation = 0;
-        
-        this.dir = rollDir.normalize();
-        this.speed = this.rollSpeed;
-    }
-
-
     SetDir(x: number, y: number, rate: number) {
         if (SJZ_GameManager.IsGameOver) return;
-        if (this._isRolling) {
-            this.dir.set(x, y);
-            return;
-        }
         super.SetDir(x, y, rate);
     }
 
@@ -147,44 +105,6 @@ export default class SJZ_CharacterFengYi extends SJZ_CharacterController {
 
     update(dt) {
         if (SJZ_GameManager.IsGameOver) return;
-
-
-        if (this._isRolling) {
-            // 动态调整旋转方向
-            if (this.dir.length() > 0) {
-                const newDirection = this.dir.x < 0 ? 1 : -1;
-                if (newDirection !== this._rotationDirection) {
-                    this._rotationDirection = newDirection;
-                    this._targetRotation = this._currentRotation + (newDirection * 360);
-                }
-            }
-            
-            // 根据剩余时间和角度计算当前帧旋转速度
-            const remainingRotation = this._targetRotation - this._currentRotation;
-            const rotationSpeed = remainingRotation / this._rollTimer;
-            const rotationStep = rotationSpeed * dt;
-            this._currentRotation += rotationStep;
-            
-            // 应用旋转
-            this.character.angle = this._currentRotation;
-            
-            this._rollTimer -= dt;
-            if (this._rollTimer <= 0) {
-                this._isRolling = false;
-                // this.speed = this.maxSpeed;
-                this.character.angle = 0; // 回正
-                this.StopAni(1);
-                this.character.getChildByName("Spine").active = true;
-                this.character.getChildByName("roll").active = false;
-
-                // 修改判断逻辑
-                if (!this._wasForcedRollDirection && this.dir.length() > 0) {
-                    this.speed = this.maxSpeed;
-                } else {
-                    this.StopMove();
-                }
-            }
-        }
         super.update(dt);
     }
 
@@ -380,7 +300,6 @@ export default class SJZ_CharacterFengYi extends SJZ_CharacterController {
 
     protected RigistEvent(): void {
         EventManager.Scene.on(SJZ_Constant.Event.MOVEMENT, this.SetDir, this);
-        EventManager.Scene.on(SJZ_Constant.Event.Roll, this.Roll, this);
         EventManager.Scene.on(SJZ_Constant.Event.MOVEMENT_STOP, this.StopMove, this);
         EventManager.Scene.on(SJZ_Constant.Event.SET_ATTACK_DIR, this.SetGunDir, this);
         EventManager.Scene.on(SJZ_Constant.Event.FIRE_START, this.Fire, this);
@@ -390,7 +309,6 @@ export default class SJZ_CharacterFengYi extends SJZ_CharacterController {
 
     protected UnrigistEvent(): void {
         EventManager.Scene.off(SJZ_Constant.Event.MOVEMENT, this.SetDir, this);
-        EventManager.Scene.off(SJZ_Constant.Event.Roll, this.Roll, this);
         EventManager.Scene.off(SJZ_Constant.Event.MOVEMENT_STOP, this.StopMove, this);
         EventManager.Scene.off(SJZ_Constant.Event.SET_ATTACK_DIR, this.SetGunDir, this);
         EventManager.Scene.off(SJZ_Constant.Event.FIRE_START, this.Fire, this);

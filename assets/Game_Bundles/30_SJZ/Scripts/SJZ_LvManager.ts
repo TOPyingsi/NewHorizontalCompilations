@@ -79,15 +79,11 @@ export class SJZ_LvManager extends Component {
     start() {
         this.InitPlayer();
 
-        const firstInGame = sys.localStorage.getItem(SJZ_Constant.Key.isHavePassTutorial);
-          console.log(firstInGame);
-        if (this.matchData.MapName !== "训练场" && (!firstInGame || firstInGame === null || firstInGame === undefined|| firstInGame === "false")) {
-            console.log("第一次进入游戏");
-            sys.localStorage.setItem(SJZ_Constant.Key.isHavePassTutorial, false);
+        if (PrefsManager.GetBool(SJZ_Constant.Key.FirstInGame, true)) {
+            PrefsManager.SetBool(SJZ_Constant.Key.FirstInGame, false);
             SJZ_DataManager.SetDefaultEquip(SJZ_DataManager.PlayerData);
             UIManager.ShowPanel(Panel.LoadingPanel, "SJZ_Tutorial");
         } else {
-            console.log("不是第一次");
             //大红放置引导，如果没放置过大红
             if (PrefsManager.GetBool(SJZ_Constant.Key.FirstPutInventory, true) && this.matchData.MapName == "特勤处") {
                 SJZ_UIManager.Instance.ShowPanel(SJZ_Constant.Panel.TutorialPanel);
@@ -109,9 +105,9 @@ export class SJZ_LvManager extends Component {
             }
         }
 
-        // if (this.matchData.MapName == "训练场") {
-        //     PrefsManager.SetBool(SJZ_Constant.Key.FirstInGame, true);
-        // }
+        if (this.matchData.MapName == "训练场") {
+            PrefsManager.SetBool(SJZ_Constant.Key.FirstInGame, true);
+        }
 
     }
 

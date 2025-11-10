@@ -433,9 +433,6 @@ export default class SJZ_GamePanel extends Component {
             case "InteractButton":
                 this.interactCallback && this.interactCallback();
                 break;
-            case "RollButton":
-                EventManager.Scene.emit(SJZ_Constant.Event.Roll);
-                break;
             case "Weapon_0":
                 if (SJZ_DataManager.PlayerData.Weapon_Primary) {
                     SJZ_GameManager.Instance.player.SetGun(SJZ_DataManager.PlayerData.Weapon_Primary);

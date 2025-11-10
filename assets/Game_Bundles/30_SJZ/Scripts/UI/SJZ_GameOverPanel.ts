@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Event, UIOpacity, Tween, tween, RichText, Label, sys } from 'cc';
+import { _decorator, Component, Node, Event, UIOpacity, Tween, tween, RichText, Label } from 'cc';
 const { ccclass, property } = _decorator;
 
 import NodeUtil from '../../../../Scripts/Framework/Utils/NodeUtil';
@@ -61,8 +61,7 @@ export default class SJZ_GameOverPanel extends PanelBase {
         this.RefreshDetailPanel(win);
 
         if (SJZ_LvManager.Instance.matchData.MapName == "训练场") {
-            // PrefsManager.SetBool(SJZ_Constant.Key.FirstInGame, false);
-            sys.localStorage.setItem(SJZ_Constant.Key.isHavePassTutorial, true);
+            PrefsManager.SetBool(SJZ_Constant.Key.FirstInGame, false);
         }
 
         ProjectEventManager.emit(ProjectEvent.游戏结束, GameManager.GameData.gameName);
