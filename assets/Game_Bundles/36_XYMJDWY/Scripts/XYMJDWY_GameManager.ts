@@ -123,7 +123,7 @@ export class XYMJDWY_GameManager extends Component {
                 value.getComponent(Label).string = "撤离物品价值：" + XYMJDWY_Incident.GetMaxNum(this.newValue);
 
                 this.winNode.parent.once(NodeEventType.TOUCH_END, () => {
-                    director.loadScene("XYMJ_Start");
+                    director.loadScene("XYMJDWY_Start");
                     ProjectEventManager.emit(ProjectEvent.返回主页);
                 });
             })
@@ -141,7 +141,7 @@ export class XYMJDWY_GameManager extends Component {
             .call(() => {
                 this.lostNode.parent.once(NodeEventType.TOUCH_END, () => {
                     ProjectEventManager.emit(ProjectEvent.返回主页);
-                    director.loadScene("XYMJ_Start");
+                    director.loadScene("XYMJDWY_Start");
                 });
 
             })

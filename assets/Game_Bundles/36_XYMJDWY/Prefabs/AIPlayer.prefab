@@ -1279,7 +1279,7 @@
       "__id__": 56
     },
     "asset": {
-      "__uuid__": "8c4b29fe-338e-473e-b0b6-b8941c630ab5",
+      "__uuid__": "326fe6c9-1445-4b2e-aa8a-117e8d27ba89",
       "__expectedType__": "cc.Prefab"
     },
     "fileId": "b14eTz1TFO0ZE7ep4k1Z5e",
@@ -1290,7 +1290,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "e5F/htNURJobE/2D5DYsA0",
+    "fileId": "93M8Ik91hEY6BkXo5vB9dt",
     "prefabRootNode": {
       "__id__": 1
     },
@@ -1313,10 +1313,10 @@
         "__id__": 64
       },
       {
-        "__id__": 66
+        "__id__": 65
       },
       {
-        "__id__": 67
+        "__id__": 66
       }
     ],
     "removedComponents": []
@@ -1386,7 +1386,27 @@
   {
     "__type__": "CCPropertyOverrideInfo",
     "targetInfo": {
-      "__id__": 65
+      "__id__": 60
+    },
+    "propertyPath": [
+      "_layer"
+    ],
+    "value": 4
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 60
+    },
+    "propertyPath": [
+      "_active"
+    ],
+    "value": true
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 67
     },
     "propertyPath": [
       "playOnLoad"
@@ -1398,29 +1418,6 @@
     "localID": [
       "06nJRtkkpNnJinZ6G7ceG5"
     ]
-  },
-  {
-    "__type__": "CCPropertyOverrideInfo",
-    "targetInfo": {
-      "__id__": 60
-    },
-    "propertyPath": [
-      "_layer"
-    ],
-    "value": 4
-  },
-  {
-    "__type__": "CCPropertyOverrideInfo",
-    "targetInfo": {
-      "__id__": 65
-    },
-    "propertyPath": [
-      "_spriteFrame"
-    ],
-    "value": {
-      "__uuid__": "1ea7923d-fcd4-437a-b86d-bf63f0389642@f9941",
-      "__expectedType__": "cc.SpriteFrame"
-    }
   },
   {
     "__type__": "cc.UITransform",

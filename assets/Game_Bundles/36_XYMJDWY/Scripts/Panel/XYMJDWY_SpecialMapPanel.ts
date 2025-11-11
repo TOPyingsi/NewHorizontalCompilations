@@ -40,7 +40,7 @@ export class XYMJDWY_SpecialMapPanel extends Component {
             XYMJDWY_GameData.Instance.ChanggeMoney(-money);
             XYMJDWY_Constant.mapID = Name;
             XYMJDWY_Constant.level = 5;
-            director.loadScene("XYMJ_Game");
+            director.loadScene("XYMJDWY_Game");
         } else {
             UIManager.ShowTip("钞票不足！无法入场！");
         }

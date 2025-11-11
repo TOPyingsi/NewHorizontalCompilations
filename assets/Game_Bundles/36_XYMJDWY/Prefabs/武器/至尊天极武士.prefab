@@ -206,7 +206,7 @@
       "__expectedType__": "sp.SkeletonData"
     },
     "defaultSkin": "default",
-    "defaultAnimation": "",
+    "defaultAnimation": "daiji",
     "_premultipliedAlpha": true,
     "_timeScale": 1,
     "_preCacheMode": 0,
