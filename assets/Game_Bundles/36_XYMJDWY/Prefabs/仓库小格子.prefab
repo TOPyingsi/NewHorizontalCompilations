@@ -594,12 +594,12 @@
       "__id__": 1
     },
     "component": "",
-    "_componentId": "0d4eefWOpRFfroiU/bgW6ek",
+    "_componentId": "09b3dOvTZZLn4pvLiVVm/BR",
     "handler": "OnClick",
     "customEventData": ""
   },
   {
-    "__type__": "0d4eefWOpRFfroiU/bgW6ek",
+    "__type__": "09b3dOvTZZLn4pvLiVVm/BR",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -614,7 +614,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "9abcIV7T1AvJsf0QTJraFG"
+    "fileId": "5bWWmp9uZAdKy6FZdARRN+"
   },
   {
     "__type__": "cc.PrefabInfo",

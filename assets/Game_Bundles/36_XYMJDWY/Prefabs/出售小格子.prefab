@@ -43,7 +43,7 @@
         "__id__": 44
       },
       {
-        "__id__": 46
+        "__id__": 47
       }
     ],
     "_prefab": {
@@ -1064,7 +1064,7 @@
     "fileId": "b1LIhBGzZGNKc2dLPq1bDu"
   },
   {
-    "__type__": "0bdffGZzmxHTLxnm9lalkTA",
+    "__type__": "cc.Button",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -1075,28 +1075,9 @@
     "__prefab": {
       "__id__": 45
     },
-    "Name": "一卷纸",
-    "_id": ""
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "7clXhLvD1MuLlrJSduvGVP"
-  },
-  {
-    "__type__": "cc.Button",
-    "_name": "",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "node": {
-      "__id__": 1
-    },
-    "_enabled": true,
-    "__prefab": {
-      "__id__": 47
-    },
     "clickEvents": [
       {
-        "__id__": 48
+        "__id__": 46
       }
     ],
     "_interactable": true,
@@ -1148,9 +1129,28 @@
       "__id__": 1
     },
     "component": "",
-    "_componentId": "0bdffGZzmxHTLxnm9lalkTA",
+    "_componentId": "bfd94jkp8xB9pA0WvwqnRhM",
     "handler": "Onclick",
     "customEventData": ""
+  },
+  {
+    "__type__": "bfd94jkp8xB9pA0WvwqnRhM",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 48
+    },
+    "Name": "",
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "804KukFX1P5LfoCEXNT2ms"
   },
   {
     "__type__": "cc.PrefabInfo",

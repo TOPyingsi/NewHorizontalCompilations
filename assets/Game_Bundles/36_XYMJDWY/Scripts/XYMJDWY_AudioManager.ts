@@ -66,7 +66,7 @@ export class XYMJDWY_AudioManager extends Component {
         XYMJDWY_AudioManager.AudioSourceMap = new Map<string, AudioSource>();
         XYMJDWY_AudioManager.AudioMap = new Map<string, AudioClip>();
         XYMJDWY_AudioManager.AudioClipName.forEach((name) => {
-            BundleManager.GetBundle("35_XYMJ").load("Audio/" + name, AudioClip, (err, data) => {
+            BundleManager.GetBundle("36_XYMJDWY").load("Audio/" + name, AudioClip, (err, data) => {
                 if (err) {
                     console.log("没有找到音频资源" + name);
                     return;

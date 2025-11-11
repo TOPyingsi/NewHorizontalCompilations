@@ -46,7 +46,7 @@
         "__id__": 40
       },
       {
-        "__id__": 42
+        "__id__": 43
       }
     ],
     "_prefab": {
@@ -995,7 +995,7 @@
     "fileId": "39mhEXGA1FPp8wMLwPwZQ0"
   },
   {
-    "__type__": "fd331AIRoNOVq78lVqqq0Fd",
+    "__type__": "cc.Button",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -1006,28 +1006,9 @@
     "__prefab": {
       "__id__": 41
     },
-    "Name": "102教室钥匙",
-    "_id": ""
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "08XahWFrNI46hk10r0i/Sh"
-  },
-  {
-    "__type__": "cc.Button",
-    "_name": "",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "node": {
-      "__id__": 1
-    },
-    "_enabled": true,
-    "__prefab": {
-      "__id__": 43
-    },
     "clickEvents": [
       {
-        "__id__": 44
+        "__id__": 42
       }
     ],
     "_interactable": true,
@@ -1079,9 +1060,28 @@
       "__id__": 1
     },
     "component": "",
-    "_componentId": "fd331AIRoNOVq78lVqqq0Fd",
+    "_componentId": "44cbfNF1P9Gl6XGJwALiag2",
     "handler": "OnClick",
     "customEventData": ""
+  },
+  {
+    "__type__": "44cbfNF1P9Gl6XGJwALiag2",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 44
+    },
+    "Name": "",
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "91dw5x71JHw5rUARTB36dQ"
   },
   {
     "__type__": "cc.PrefabInfo",

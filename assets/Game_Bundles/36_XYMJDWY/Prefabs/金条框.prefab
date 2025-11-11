@@ -824,12 +824,12 @@
       "__id__": 1
     },
     "component": "",
-    "_componentId": "20401ZQbvBLwI4MAnjy8hMa",
+    "_componentId": "5af3baHP+9BOq2ZSzbDd2Au",
     "handler": "OnClick",
     "customEventData": ""
   },
   {
-    "__type__": "20401ZQbvBLwI4MAnjy8hMa",
+    "__type__": "5af3baHP+9BOq2ZSzbDd2Au",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -844,7 +844,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "9531dViH9Ja6nBkxTUF+cj"
+    "fileId": "dc9c1bOo5Mq7vzmnHAruUD"
   },
   {
     "__type__": "cc.PrefabInfo",
