@@ -44,7 +44,7 @@ export class XYMJDWY_Incident extends Component {
         // 主单位整数部分
         const mainPart = Math.floor(num);
         // 次单位余数部分
-        const remainder = Math.ceil((num - mainPart) * 10000);
+        const remainder = Math.floor((num - mainPart) * 10000);
 
         // 拼接结果，确保次单位不会访问越界的单位
         if (remainder > 0 && unitIndex > 0) {

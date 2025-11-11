@@ -14,8 +14,8 @@ export class XYMJDWY_GameData extends Component {
 
     public Money: number = 100;//钱
     public GoldBar: number = 0;//金条
-    public Skin: string = "吃瓜";//当前选择皮肤
-    public SkinData: string[] = ["吃瓜", "微笑"];//已经解锁的皮肤
+    public Skin: string = "帅哥";//当前选择皮肤
+    public SkinData: string[] = ["猎人", "帅哥"];//已经解锁的皮肤
     public ChanggeMoney(num: number) {
         this.Money += num;
         director.getScene().emit("货币修改");
