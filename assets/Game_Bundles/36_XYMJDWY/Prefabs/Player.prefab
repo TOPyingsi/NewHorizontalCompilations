@@ -186,7 +186,7 @@
     "_minSeg": 1,
     "_stroke": 60,
     "_texture": {
-      "__uuid__": "9b205f19-6bcf-4914-87f9-0d6742476552@6c48a",
+      "__uuid__": "ed514073-7e5c-4f7d-95b8-808b9c03baa8@6c48a",
       "__expectedType__": "cc.Texture2D"
     },
     "_fastMode": true,
@@ -205,6 +205,8 @@
       "__id__": 0
     },
     "fileId": "180IvSmTlJNoHUWA+cp/Ei",
+    "instance": null,
+    "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
@@ -498,7 +500,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "2057fb8c-79fd-4eac-8d71-d95b81fa4208@f9941",
+      "__uuid__": "8ef488fb-e52a-4f4a-b5be-bd54fe570664@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 1,
@@ -584,7 +586,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "1671af50-5f50-4131-86ec-2e3b17e9d3e0@f9941",
+      "__uuid__": "666c1525-21a9-412c-98c3-11ea666bfdd5@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 1,
@@ -868,7 +870,7 @@
       "_skeletonData"
     ],
     "value": {
-      "__uuid__": "d89956a7-1b46-4879-ac87-46b4fc702a2a",
+      "__uuid__": "3ced8074-d98d-4752-a81b-ca3dc3a85ed1",
       "__expectedType__": "sp.SkeletonData"
     }
   },

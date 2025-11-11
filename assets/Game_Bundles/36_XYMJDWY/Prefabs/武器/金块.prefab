@@ -110,7 +110,7 @@
       "a": 255
     },
     "_skeletonData": {
-      "__uuid__": "d783c0be-4d2a-4f71-8a58-cc88af107a14",
+      "__uuid__": "e570da92-e302-4ed0-b646-712f1f8eda72",
       "__expectedType__": "sp.SkeletonData"
     },
     "defaultSkin": "default",
@@ -141,6 +141,7 @@
       "__id__": 0
     },
     "fileId": "81fucUnkdBZoVxf28gPR5f",
+    "instance": null,
     "targetOverrides": null
   }
 ]

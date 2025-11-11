@@ -7992,6 +7992,8 @@
       "__id__": 0
     },
     "fileId": "75cT0pIeVMurZbu0YUEDR2",
+    "instance": null,
+    "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
@@ -11767,7 +11769,7 @@
       "__id__": 647
     },
     "_tmxFile": {
-      "__uuid__": "c4c5d1bd-575d-4055-a465-fa1da2172ca5",
+      "__uuid__": "62c6fee0-7479-468d-b020-4ef7e6416449",
       "__expectedType__": "cc.TiledMapAsset"
     },
     "_enableCulling": true,

@@ -173,7 +173,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "fe4a7656-6a7c-4137-b454-fcca01483ae0@f9941",
+      "__uuid__": "8c94eaad-1636-4d92-a7b8-19ccc793a7f4@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -553,7 +553,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "5d848548-04f0-4380-8bde-c1c6009775c5@f9941",
+      "__uuid__": "19a14eba-e954-4d15-a9d9-c700ebbbe207@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -940,7 +940,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "00b0c2a0-eafa-48cf-972b-ffb448339e03@f9941",
+      "__uuid__": "7446f3b7-05e8-43f9-816f-ba52b19d5948@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -1067,7 +1067,7 @@
       "a": 180
     },
     "_spriteFrame": {
-      "__uuid__": "02740ad0-d2d2-4195-a425-82206460b708@f9941",
+      "__uuid__": "890f9817-bae3-44e3-ace3-cb34780d5700@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -1144,6 +1144,7 @@
     },
     "Name": "",
     "IsVideoUnLock": false,
+    "IsactivityUnLock": false,
     "price": 0,
     "_id": ""
   },
