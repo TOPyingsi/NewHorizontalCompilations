@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.SceneAsset",
-    "_name": "",
+    "_name": "XYMJDWY_Start",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_native": "",
@@ -229,7 +229,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 635.205223880597,
+    "_orthoHeight": 1067.3040752351098,
     "_near": 1,
     "_far": 2000,
     "_color": {
@@ -425,8 +425,8 @@
       "__uuid__": "7789c5c1-cd37-4b21-b290-ecba95de5d73",
       "__expectedType__": "sp.SkeletonData"
     },
-    "defaultSkin": "default",
-    "defaultAnimation": "animation",
+    "defaultSkin": "",
+    "defaultAnimation": "",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
     "_preCacheMode": 0,
@@ -534,8 +534,8 @@
       "__uuid__": "e3263ad9-7a1a-467a-bea1-b72ae14d332d",
       "__expectedType__": "sp.SkeletonData"
     },
-    "defaultSkin": "default",
-    "defaultAnimation": "kaiqiang",
+    "defaultSkin": "",
+    "defaultAnimation": "",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
     "_preCacheMode": 0,
@@ -643,8 +643,8 @@
       "__uuid__": "e3263ad9-7a1a-467a-bea1-b72ae14d332d",
       "__expectedType__": "sp.SkeletonData"
     },
-    "defaultSkin": "default",
-    "defaultAnimation": "yidong",
+    "defaultSkin": "",
+    "defaultAnimation": "",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
     "_preCacheMode": 0,
@@ -752,8 +752,8 @@
       "__uuid__": "b0e28d8e-2a15-4be6-b048-253138bac175",
       "__expectedType__": "sp.SkeletonData"
     },
-    "defaultSkin": "default",
-    "defaultAnimation": "kaiqiang",
+    "defaultSkin": "",
+    "defaultAnimation": "",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
     "_preCacheMode": 0,
@@ -861,8 +861,8 @@
       "__uuid__": "b0e28d8e-2a15-4be6-b048-253138bac175",
       "__expectedType__": "sp.SkeletonData"
     },
-    "defaultSkin": "default",
-    "defaultAnimation": "yidong",
+    "defaultSkin": "",
+    "defaultAnimation": "",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
     "_preCacheMode": 0,
@@ -970,8 +970,8 @@
       "__uuid__": "1a9132fb-c388-4907-bbfa-80b304598980",
       "__expectedType__": "sp.SkeletonData"
     },
-    "defaultSkin": "default",
-    "defaultAnimation": "animation",
+    "defaultSkin": "",
+    "defaultAnimation": "",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
     "_preCacheMode": 0,
@@ -67723,8 +67723,8 @@
       "__uuid__": "f667d19f-49a6-4452-be97-bb74ce4ac854",
       "__expectedType__": "sp.SkeletonData"
     },
-    "defaultSkin": "default",
-    "defaultAnimation": "yidong",
+    "defaultSkin": "",
+    "defaultAnimation": "",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
     "_preCacheMode": 0,
@@ -67832,8 +67832,8 @@
       "__uuid__": "b5720296-2d86-48df-ba07-f5e8d31c3680",
       "__expectedType__": "sp.SkeletonData"
     },
-    "defaultSkin": "default",
-    "defaultAnimation": "animation",
+    "defaultSkin": "",
+    "defaultAnimation": "",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
     "_preCacheMode": 0,
@@ -67941,8 +67941,8 @@
       "__uuid__": "a2118426-59ad-4d52-8892-ab529b4543fe",
       "__expectedType__": "sp.SkeletonData"
     },
-    "defaultSkin": "default",
-    "defaultAnimation": "kaiqiang",
+    "defaultSkin": "",
+    "defaultAnimation": "",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
     "_preCacheMode": 0,
@@ -68050,8 +68050,8 @@
       "__uuid__": "f667d19f-49a6-4452-be97-bb74ce4ac854",
       "__expectedType__": "sp.SkeletonData"
     },
-    "defaultSkin": "default",
-    "defaultAnimation": "kaiqiang",
+    "defaultSkin": "",
+    "defaultAnimation": "",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
     "_preCacheMode": 0,
@@ -68159,8 +68159,8 @@
       "__uuid__": "a2118426-59ad-4d52-8892-ab529b4543fe",
       "__expectedType__": "sp.SkeletonData"
     },
-    "defaultSkin": "default",
-    "defaultAnimation": "yidong",
+    "defaultSkin": "",
+    "defaultAnimation": "",
     "_premultipliedAlpha": false,
     "_timeScale": 1,
     "_preCacheMode": 0,
