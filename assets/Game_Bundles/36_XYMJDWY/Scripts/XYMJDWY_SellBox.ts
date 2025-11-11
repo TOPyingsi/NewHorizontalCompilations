@@ -13,7 +13,7 @@ export class XYMJDWY_SellBox extends Component {
     public value: number = 0;
     private _isactivate: boolean = true;
     start() {
-        this.Init();
+
     }
     protected onEnable(): void {
         this.Isactivate();

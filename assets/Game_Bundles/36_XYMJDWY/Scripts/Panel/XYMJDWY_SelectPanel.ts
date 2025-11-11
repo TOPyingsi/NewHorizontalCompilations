@@ -43,7 +43,7 @@ export class XYMJ_SeleXYMJDWY_SelectPanelctPanel extends Component {
             case "食堂":
             case "商场":
                 XYMJDWY_Constant.mapID = Btn.target.name;
-                director.loadScene("XYMJ_Game");
+                director.loadScene("XYMJDWY_Game");
                 break;
             case "新手": this.Verificationassets(0); break;
             case "简单": this.Verificationassets(1); break;

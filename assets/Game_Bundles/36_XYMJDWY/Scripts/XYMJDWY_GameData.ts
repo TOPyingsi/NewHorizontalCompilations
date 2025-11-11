@@ -14,8 +14,8 @@ export class XYMJDWY_GameData extends Component {
 
     public Money: number = 100;//钱
     public GoldBar: number = 0;//金条
-    public Skin: string = "哈基米0";//当前选择皮肤
-    public SkinData: string[] = ["哈基米0", "微笑"];//已经解锁的皮肤
+    public Skin: string = "吃瓜";//当前选择皮肤
+    public SkinData: string[] = ["吃瓜", "微笑"];//已经解锁的皮肤
     public ChanggeMoney(num: number) {
         this.Money += num;
         director.getScene().emit("货币修改");
@@ -108,11 +108,11 @@ export class XYMJDWY_GameData extends Component {
     public TimeDate: number[] = [];
     public static DateSave() {
         let json = JSON.stringify(XYMJDWY_GameData.Instance);
-        sys.localStorage.setItem("XYMJ_DATA", json);
+        sys.localStorage.setItem("XYMJDWY_DATA", json);
         console.log("游戏存档");
     }
     public static ReadDate() {
-        let name = sys.localStorage.getItem("XYMJ_DATA");
+        let name = sys.localStorage.getItem("XYMJDWY_DATA");
         if (name != "" && name != null) {
             console.log("读取存档");
             XYMJDWY_GameData._instance = Object.assign(new XYMJDWY_GameData(), JSON.parse(name));

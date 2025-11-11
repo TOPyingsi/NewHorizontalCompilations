@@ -51,8 +51,8 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
+      "x": -1800,
+      "y": 831.52,
       "z": 0
     },
     "_lrot": {
@@ -1145,7 +1145,7 @@
     "__prefab": {
       "__id__": 48
     },
-    "Name": "",
+    "Name": "黄金戒指",
     "_id": ""
   },
   {
@@ -1161,7 +1161,6 @@
       "__id__": 0
     },
     "fileId": "7ccm4OAZRI/L9SGpbPsEc3",
-    "instance": null,
     "targetOverrides": null
   }
 ]
