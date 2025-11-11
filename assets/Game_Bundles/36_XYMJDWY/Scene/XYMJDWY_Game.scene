@@ -184,7 +184,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 684.279197080292,
+    "_orthoHeight": 764.4,
     "_near": 1,
     "_far": 2000,
     "_color": {
@@ -754,7 +754,7 @@
     "_priority": 2,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 684.279197080292,
+    "_orthoHeight": 764.4,
     "_near": 1,
     "_far": 2000,
     "_color": {
@@ -1079,7 +1079,7 @@
       "__id__": 30
     },
     "asset": {
-      "__uuid__": "b1dd5ccd-7772-49a3-8a72-fd8979832dea",
+      "__uuid__": "1a0f9227-a214-47b1-b159-4dd961341fe9",
       "__expectedType__": "cc.Prefab"
     },
     "fileId": "8aEzQ1MLVHtIRIPP1xYDKS",
@@ -1091,7 +1091,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "31QIoWR69BJpV38oT/hQbf",
+    "fileId": "aazwXoqEpHHajzA+dhiDDr",
     "prefabRootNode": null,
     "mountedChildren": [],
     "mountedComponents": [],
@@ -1319,7 +1319,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "e6afe0ac-9729-47b1-ae7a-1aea5ad85080@f9941",
+      "__uuid__": "7b057a00-c51b-42f6-9d1e-3bfaa2f0a32d@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -1380,7 +1380,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "0903bb69-0d13-431d-839a-8ba655118faa@f9941",
+      "__uuid__": "7f8eff68-6a9b-4e19-8a71-c81212b2dbb5@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -1811,7 +1811,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "6bb45c2e-8d15-4444-936e-13fa27ac9c22@f9941",
+      "__uuid__": "72ffa68e-97d5-4d06-9a33-18ad926c576a@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -2103,7 +2103,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "510c246e-7897-4570-bc8e-8b8bdf8e63cf@f9941",
+      "__uuid__": "5afb4f21-238c-43c8-ba6e-e7ee07c6c6ec@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 1,
@@ -2164,7 +2164,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "2aca0d30-e74f-4b8f-a9b1-495783868656@f9941",
+      "__uuid__": "4783c112-2632-4eeb-bd81-e29ec491685c@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 1,
@@ -2588,7 +2588,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "7189a76e-780c-435b-b1fc-7f4552981c10@f9941",
+      "__uuid__": "826223e0-f59e-4612-a657-11cc22860fa5@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -2649,7 +2649,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "ae686ab0-3e52-4d76-ac4f-53ef7b8de169@f9941",
+      "__uuid__": "08f509a8-603f-43da-94cb-922e3683fe69@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 1,
@@ -2761,7 +2761,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "dff42555-8d4d-4f88-8c5e-50a19e9d8702@f9941",
+      "__uuid__": "7e0b4651-d81c-48ca-b805-8f8914d57231@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -2986,7 +2986,7 @@
       "a": 153
     },
     "_spriteFrame": {
-      "__uuid__": "02740ad0-d2d2-4195-a425-82206460b708@f9941",
+      "__uuid__": "890f9817-bae3-44e3-ace3-cb34780d5700@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -3356,7 +3356,7 @@
       "a": 153
     },
     "_spriteFrame": {
-      "__uuid__": "02740ad0-d2d2-4195-a425-82206460b708@f9941",
+      "__uuid__": "890f9817-bae3-44e3-ace3-cb34780d5700@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -3465,7 +3465,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "cee42771-b485-4469-9946-ad2995f1c871@f9941",
+      "__uuid__": "3538ad2d-b053-447d-9775-b77ff2ee9dd3@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -3974,7 +3974,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "707d7b34-f5cd-4edb-a5be-492cc7175e37@f9941",
+      "__uuid__": "2db5570d-d807-4b7d-a148-2d00815b000a@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -4222,7 +4222,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "707d7b34-f5cd-4edb-a5be-492cc7175e37@f9941",
+      "__uuid__": "2db5570d-d807-4b7d-a148-2d00815b000a@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -4389,7 +4389,9 @@
       "__uuid__": "5a776a3e-9088-4f63-8af6-b49f9ea5eb67",
       "__expectedType__": "cc.Prefab"
     },
-    "mapCamera": null,
+    "mapCamera": {
+      "__id__": 4
+    },
     "_id": "4dWxvK+ytK56aVjuRIPecY"
   },
   {
@@ -4547,7 +4549,7 @@
       "a": 200
     },
     "_spriteFrame": {
-      "__uuid__": "02740ad0-d2d2-4195-a425-82206460b708@f9941",
+      "__uuid__": "890f9817-bae3-44e3-ace3-cb34780d5700@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -4686,7 +4688,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "9a533957-3d0b-4f3f-b323-1a3e2568eb0e@f9941",
+      "__uuid__": "de6a50ff-d067-4ae8-b49f-03757dda8f20@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -5062,7 +5064,7 @@
       "a": 200
     },
     "_spriteFrame": {
-      "__uuid__": "02740ad0-d2d2-4195-a425-82206460b708@f9941",
+      "__uuid__": "890f9817-bae3-44e3-ace3-cb34780d5700@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -5481,7 +5483,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "56fcf950-09a5-4a68-b55c-85a9a4691d09@f9941",
+      "__uuid__": "0c539c22-ddcb-45c9-a520-50fceaa20fd4@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -5681,7 +5683,7 @@
     "_priority": 2,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 684.279197080292,
+    "_orthoHeight": 764.4,
     "_near": 1,
     "_far": 2000,
     "_color": {
@@ -5837,7 +5839,7 @@
     "_enabled": true,
     "__prefab": null,
     "_clip": {
-      "__uuid__": "ba03e206-dd4a-4fef-a0ed-e70687b34f54",
+      "__uuid__": "b55d5edb-7d74-4d1e-9fda-cfdcefc18401",
       "__expectedType__": "cc.AudioClip"
     },
     "_loop": true,

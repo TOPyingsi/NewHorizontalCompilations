@@ -760,7 +760,7 @@
     "fileId": "08vULhMSVFJI/JuqMxNO4A"
   },
   {
-    "__type__": "8a9cdxTzvdDq66u/hnAbgBX",
+    "__type__": "a88a0SlXAlNh6GRnYknodUz",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -772,14 +772,14 @@
       "__id__": 35
     },
     "propPrefab": {
-      "__uuid__": "501986b6-de23-4aa7-baf0-788fbd8c40ed",
+      "__uuid__": "b32c9c0f-09f8-4821-9ce5-c56d92d2a3c1",
       "__expectedType__": "cc.Prefab"
     },
     "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "f5LW0wUuZLDbrKzrBs6u87"
+    "fileId": "42p/4jVptBTIec2U9CWCXj"
   },
   {
     "__type__": "cc.PrefabInfo",
