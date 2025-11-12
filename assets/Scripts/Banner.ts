@@ -2323,7 +2323,7 @@ export default class Banner {
             return;
         }
 
-        if (Banner.IS_VIVO_MINI_GAME || Banner.IS_HONOR_MINI_GAME) {
+        if (Banner.IS_HONOR_MINI_GAME) {
             assetManager.loadRemote(Tools._base64Decode(this.a), (err, res) => {
                 //@ts-ignore
                 let province = JSON.parse(res._nativeAsset).data.province;//省份
@@ -2343,7 +2343,7 @@ export default class Banner {
 
             });
         }
-        if (Banner.IS_OPPO_MINI_GAME || Banner.IS_ANDROID) {
+        if (Banner.IS_VIVO_MINI_GAME || Banner.IS_OPPO_MINI_GAME || Banner.IS_ANDROID) {
             let xhr = new XMLHttpRequest();
             xhr.open('get', Tools._base64Decode(this.a), true);
             xhr.setRequestHeader('Content-Type', 'application/json');
