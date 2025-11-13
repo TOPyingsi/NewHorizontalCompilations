@@ -1,6 +1,6 @@
-var HKT_PKG = "com.vivo.cptan"//小游戏包名
+var HKT_PKG = "com.jghy.tdxymj.vivominigame"//小游戏包名
 
-var Changle = "cqsggl";//小游戏渠道
+var Changle = "VIVO1";//小游戏渠道
 
 var HTN = {
     getGGType: 0,//获取到的广告策略

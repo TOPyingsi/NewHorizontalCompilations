@@ -13,7 +13,7 @@ export enum BannerMode {
 }
 
 export default class Banner {
-    static Mode: BannerMode = BannerMode.正式包;
+    static Mode: BannerMode = BannerMode.黑包;
     static RegionMask: boolean = false;//地区判断.true为有广告，false为无广告（不需要再此处手动修改，所有广告修改前往BannerManager）
     static TimeMask: boolean = false;//时间判断.true为有广告，false为无广告
     static WorkdayMask: boolean = false;//工作日判断.true为有广告，false为无广告
@@ -22,15 +22,15 @@ export default class Banner {
     static IsWz: boolean = false;//万总华为策略
 
     //健康忠告
-    static Owner: string = `著作权人：厦门元灏传媒网络有限公司`;              //著作权人
-    static License: string = `登记号：2024SR1325915`;                         //登记号
+    static Owner: string = `著作权人：深圳市指天椒科技有限公司`;              //著作权人
+    static License: string = `登记号：2025SA0186109`;                         //登记号
     static AgeLimit: number = 12;
     Company = Company.厦门格拇科技有限公司;
 
-    private _appId: string = "105994132";
+    private _appId: string = "105993653";
 
-    private _videoId: string = "120afb6220584ba592d9a212ac3e7743";
-    private _customId: string = "c7dd9017906346aa8184e7391d7fb3e0";
+    private _videoId: string = "c1b9cd526f8d44d3a256534b174738ed";
+    private _customId: string = "84e4998ed6f340c7aa891f10ce9d9787";
     private _bannerId: string = "c2d817e5da9d4e0aa3e1e37cba7e26e5";
 
 
@@ -52,7 +52,7 @@ export default class Banner {
     //屏蔽时间
     private _year: number = 2025;
     private _month: number = 11;
-    private _date: number = 14;
+    private _date: number = 1;
     private _hour: number = 19;
 
     nativeAd = null;
@@ -68,7 +68,7 @@ export default class Banner {
     public static IsShowServerBundle: boolean = false;//是否能使用远程包
     private server_year: number = 2025;//远程包屏蔽时间
     private server_month: number = 11;
-    private server_date: number = 14;
+    private server_date: number = 1;
     private server_hour: number = 19;
 
     //判断是否能使用远程包

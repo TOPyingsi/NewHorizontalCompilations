@@ -54,7 +54,7 @@ export class BannerManager extends Component {
 
 
     //整体策略(可以自行添加)(一般情况仅需修改此处)
-    public static Strategy: Strategy = Strategy.王勇VR;
+    public static Strategy: Strategy = Strategy.深圳腾逸;
 
 
 
