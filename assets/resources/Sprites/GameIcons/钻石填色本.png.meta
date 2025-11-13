@@ -2,22 +2,22 @@
   "ver": "1.0.27",
   "importer": "image",
   "imported": true,
-  "uuid": "3dd8f9bb-265a-4e4e-878c-a60848b56135",
+  "uuid": "15314424-8489-4f10-87ca-9e97ca3287df",
   "files": [
-    ".jpg",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "3dd8f9bb-265a-4e4e-878c-a60848b56135@6c48a",
-      "displayName": "Start_Background",
+      "uuid": "15314424-8489-4f10-87ca-9e97ca3287df@6c48a",
+      "displayName": "钻石填色本",
       "id": "6c48a",
       "name": "texture",
       "userData": {
         "wrapModeS": "clamp-to-edge",
         "wrapModeT": "clamp-to-edge",
-        "imageUuidOrDatabaseUri": "3dd8f9bb-265a-4e4e-878c-a60848b56135",
+        "imageUuidOrDatabaseUri": "15314424-8489-4f10-87ca-9e97ca3287df",
         "isUuid": true,
         "visible": false,
         "minfilter": "linear",
@@ -34,22 +34,21 @@
     },
     "f9941": {
       "importer": "sprite-frame",
-      "uuid": "3dd8f9bb-265a-4e4e-878c-a60848b56135@f9941",
-      "displayName": "Start_Background",
+      "uuid": "15314424-8489-4f10-87ca-9e97ca3287df@f9941",
+      "displayName": "钻石填色本",
       "id": "f9941",
       "name": "spriteFrame",
       "userData": {
-        "trimType": "auto",
         "trimThreshold": 1,
         "rotated": false,
         "offsetX": 0,
         "offsetY": 0,
         "trimX": 0,
         "trimY": 0,
-        "width": 2340,
-        "height": 1080,
-        "rawWidth": 2340,
-        "rawHeight": 1080,
+        "width": 294,
+        "height": 60,
+        "rawWidth": 294,
+        "rawHeight": 60,
         "borderTop": 0,
         "borderBottom": 0,
         "borderLeft": 0,
@@ -61,17 +60,17 @@
         "meshType": 0,
         "vertices": {
           "rawPosition": [
-            -1170,
-            -540,
+            -147,
+            -30,
             0,
-            1170,
-            -540,
+            147,
+            -30,
             0,
-            -1170,
-            540,
+            -147,
+            30,
             0,
-            1170,
-            540,
+            147,
+            30,
             0
           ],
           "indexes": [
@@ -84,12 +83,12 @@
           ],
           "uv": [
             0,
-            1080,
-            2340,
-            1080,
+            60,
+            294,
+            60,
             0,
             0,
-            2340,
+            294,
             0
           ],
           "nuv": [
@@ -103,19 +102,20 @@
             1
           ],
           "minPos": [
-            -1170,
-            -540,
+            -147,
+            -30,
             0
           ],
           "maxPos": [
-            1170,
-            540,
+            147,
+            30,
             0
           ]
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "3dd8f9bb-265a-4e4e-878c-a60848b56135@6c48a",
-        "atlasUuid": ""
+        "imageUuidOrDatabaseUri": "15314424-8489-4f10-87ca-9e97ca3287df@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
       },
       "ver": "1.0.12",
       "imported": true,
@@ -127,8 +127,8 @@
   },
   "userData": {
     "type": "sprite-frame",
-    "hasAlpha": false,
+    "hasAlpha": true,
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "3dd8f9bb-265a-4e4e-878c-a60848b56135@6c48a"
+    "redirect": "15314424-8489-4f10-87ca-9e97ca3287df@6c48a"
   }
 }

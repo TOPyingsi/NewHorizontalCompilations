@@ -2,22 +2,22 @@
   "ver": "1.0.27",
   "importer": "image",
   "imported": true,
-  "uuid": "3dd8f9bb-265a-4e4e-878c-a60848b56135",
+  "uuid": "63424c5e-9a85-4852-98d5-63961475a7ae",
   "files": [
-    ".jpg",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "3dd8f9bb-265a-4e4e-878c-a60848b56135@6c48a",
-      "displayName": "Start_Background",
+      "uuid": "63424c5e-9a85-4852-98d5-63961475a7ae@6c48a",
+      "displayName": "哈基米挖矿",
       "id": "6c48a",
       "name": "texture",
       "userData": {
         "wrapModeS": "clamp-to-edge",
         "wrapModeT": "clamp-to-edge",
-        "imageUuidOrDatabaseUri": "3dd8f9bb-265a-4e4e-878c-a60848b56135",
+        "imageUuidOrDatabaseUri": "63424c5e-9a85-4852-98d5-63961475a7ae",
         "isUuid": true,
         "visible": false,
         "minfilter": "linear",
@@ -34,22 +34,21 @@
     },
     "f9941": {
       "importer": "sprite-frame",
-      "uuid": "3dd8f9bb-265a-4e4e-878c-a60848b56135@f9941",
-      "displayName": "Start_Background",
+      "uuid": "63424c5e-9a85-4852-98d5-63961475a7ae@f9941",
+      "displayName": "哈基米挖矿",
       "id": "f9941",
       "name": "spriteFrame",
       "userData": {
-        "trimType": "auto",
         "trimThreshold": 1,
         "rotated": false,
         "offsetX": 0,
         "offsetY": 0,
         "trimX": 0,
         "trimY": 0,
-        "width": 2340,
-        "height": 1080,
-        "rawWidth": 2340,
-        "rawHeight": 1080,
+        "width": 225,
+        "height": 58,
+        "rawWidth": 225,
+        "rawHeight": 58,
         "borderTop": 0,
         "borderBottom": 0,
         "borderLeft": 0,
@@ -61,17 +60,17 @@
         "meshType": 0,
         "vertices": {
           "rawPosition": [
-            -1170,
-            -540,
+            -112.5,
+            -29,
             0,
-            1170,
-            -540,
+            112.5,
+            -29,
             0,
-            -1170,
-            540,
+            -112.5,
+            29,
             0,
-            1170,
-            540,
+            112.5,
+            29,
             0
           ],
           "indexes": [
@@ -84,12 +83,12 @@
           ],
           "uv": [
             0,
-            1080,
-            2340,
-            1080,
+            58,
+            225,
+            58,
             0,
             0,
-            2340,
+            225,
             0
           ],
           "nuv": [
@@ -103,19 +102,20 @@
             1
           ],
           "minPos": [
-            -1170,
-            -540,
+            -112.5,
+            -29,
             0
           ],
           "maxPos": [
-            1170,
-            540,
+            112.5,
+            29,
             0
           ]
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "3dd8f9bb-265a-4e4e-878c-a60848b56135@6c48a",
-        "atlasUuid": ""
+        "imageUuidOrDatabaseUri": "63424c5e-9a85-4852-98d5-63961475a7ae@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
       },
       "ver": "1.0.12",
       "imported": true,
@@ -127,8 +127,8 @@
   },
   "userData": {
     "type": "sprite-frame",
-    "hasAlpha": false,
+    "hasAlpha": true,
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "3dd8f9bb-265a-4e4e-878c-a60848b56135@6c48a"
+    "redirect": "63424c5e-9a85-4852-98d5-63961475a7ae@6c48a"
   }
 }

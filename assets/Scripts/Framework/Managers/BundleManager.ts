@@ -26,15 +26,15 @@ export class BundleManager extends Component {
         console.log("加载游戏数据...");
         this.LoadDataAndBundles();
 
-        if (!PrefsManager.GetBool(Constant.Key.AgreePolicy) && !Banner.IS_ANDROID && !Banner.IS_HarmonyOSNext_GAME && !Banner.IS_BYTEDANCE_MINI_GAME && !Banner.IS_WECHAT_MINI_GAME) {
-            UIManager.ShowPanel(Panel.PrivacyPanel, [true, () => {
-                BundleManager.AgreePolicy = true;
-                this.SuccessCallback();
-            }]);
-        } else {
+        // if (!PrefsManager.GetBool(Constant.Key.AgreePolicy) && !Banner.IS_ANDROID && !Banner.IS_HarmonyOSNext_GAME && !Banner.IS_BYTEDANCE_MINI_GAME && !Banner.IS_WECHAT_MINI_GAME) {
+        //     UIManager.ShowPanel(Panel.PrivacyPanel, [true, () => {
+        //         BundleManager.AgreePolicy = true;
+        //         this.SuccessCallback();
+        //     }]);
+        // } else {
             BundleManager.AgreePolicy = true;
             this.SuccessCallback();
-        }
+        // }
 
         Banner.Instance.SetCityIsWhite();
     }
