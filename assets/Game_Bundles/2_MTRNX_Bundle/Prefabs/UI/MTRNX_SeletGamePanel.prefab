@@ -1255,6 +1255,8 @@
       "__id__": 0
     },
     "fileId": "5fOedWectAKr3s6B6/VA7p",
+    "instance": null,
+    "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
@@ -1627,6 +1629,8 @@
       "__id__": 0
     },
     "fileId": "aakgYPN3BLLLgN1M+xYDWC",
+    "instance": null,
+    "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
@@ -5235,6 +5239,8 @@
       "__id__": 0
     },
     "fileId": "d1519GU19DMrLFiFdrKfX+",
+    "instance": null,
+    "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {

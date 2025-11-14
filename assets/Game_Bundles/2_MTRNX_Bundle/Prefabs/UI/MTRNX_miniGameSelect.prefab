@@ -894,10 +894,10 @@
       "b": 255,
       "a": 255
     },
-    "_string": "所有的山海经单位",
+    "_string": "所有的单位",
     "_horizontalAlign": 0,
     "_verticalAlign": 1,
-    "_actualFontSize": 30,
+    "_actualFontSize": 31,
     "_fontSize": 30,
     "_fontFamily": "Arial",
     "_lineHeight": 40,

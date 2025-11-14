@@ -1261,7 +1261,7 @@
     "propertyPath": [
       "_string"
     ],
-    "value": "香蕉海豚"
+    "value": "狐狸"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -1279,7 +1279,7 @@
     ],
     "value": {
       "__type__": "cc.Size",
-      "width": 144,
+      "width": 74,
       "height": 54.4
     }
   },
@@ -1751,7 +1751,7 @@
     "propertyPath": [
       "_string"
     ],
-    "value": "香菇人"
+    "value": "鹦鹉"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -1769,7 +1769,7 @@
     ],
     "value": {
       "__type__": "cc.Size",
-      "width": 109,
+      "width": 74,
       "height": 54.4
     }
   },
@@ -2270,7 +2270,7 @@
     "propertyPath": [
       "_string"
     ],
-    "value": "菠萝猴子"
+    "value": "猪"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -2288,7 +2288,7 @@
     ],
     "value": {
       "__type__": "cc.Size",
-      "width": 144,
+      "width": 39,
       "height": 54.4
     }
   },
@@ -7549,7 +7549,7 @@
     },
     "_type": 0,
     "_fillType": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
       "x": 0,

@@ -996,7 +996,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -960.201,
+      "x": 697.079,
       "y": -351.433,
       "z": 0
     },
@@ -3746,7 +3746,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 699.799,
+      "x": -957.482,
       "y": -351.433,
       "z": 0
     },
@@ -3797,7 +3797,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 23.214,
-      "y": 9.697,
+      "y": -12.913,
       "z": 0
     },
     "_lrot": {
@@ -3973,7 +3973,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 324,
+      "width": 84,
       "height": 54.4
     },
     "_anchorPoint": {
@@ -4009,7 +4009,7 @@
       "b": 204,
       "a": 255
     },
-    "_string": "撒旦螳螂刀马桶人",
+    "_string": "孔雀",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 40,
@@ -7175,8 +7175,6 @@
       "__id__": 0
     },
     "fileId": "6e1QJStB9As5RR+vxdizrC",
-    "instance": null,
-    "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
   },
   {
@@ -7541,7 +7539,7 @@
     },
     "_type": 0,
     "_fillType": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
       "x": 0,
